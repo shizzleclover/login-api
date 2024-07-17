@@ -17,5 +17,13 @@
         Password: <input type="password" name="password" required><br>
         <input type="submit" value="Login">
     </form>
+
+    <h2>Forgot Password</h2>
+    <form action="forgot_password.php" method="post">
+        Username: <input type="text" name="username" required><br>
+        New Password: <input type="password" name="new_password" required><br>
+        <input type="hidden" name="action" value="forgot">
+        <input type="submit" value="Reset Password">
+    </form>
 </body>
 </html>
